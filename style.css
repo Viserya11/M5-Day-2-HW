@@ -1,6 +1,7 @@
 body {
     margin: 0;
     width: 100%;
+    background-color: aliceblue;
 }
 
 .card {
@@ -27,6 +28,7 @@ body {
     color: aliceblue;
     padding: 10px;
     margin: 0;
+    text-align: center;
 }
 
 .navbar {
