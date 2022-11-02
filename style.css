@@ -138,4 +138,8 @@ h1 {
 .middlebg {
     width: 100%;
 }
-  
+
+::selection {
+    color: aliceblue;
+    background: #457d6a;
+  }
