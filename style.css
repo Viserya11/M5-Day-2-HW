@@ -37,3 +37,11 @@ body {
     text-align: justify;
     font-size: 0.8em;
 }
+
+a {
+    color: aliceblue;
+}
+
+a:hover {
+    color: grey;
+}
