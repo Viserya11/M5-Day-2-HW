@@ -1,17 +1,24 @@
 body {
     margin: 0;
     width: 100%;
+    font-family;
 }
 
 .card {
     background-color: rgb(29, 27, 27);
     color: aliceblue;
-    margin-bottom: 10vh;
-    max-width: 20vw;
+    margin-bottom: 20%;
+    border-top: 7px solid #983B66;
+    border-right: 7px solid #457d6a;
+    border-bottom: 7px solid #e9d78d;
+    border-left: 7px solid #7b9fae;
+    height: 90%;
+
 }
 
+
 .card-img-top {
-    width: 15vw;
+    width: 60%;
     margin: 10px auto ;
     
 }
@@ -26,16 +33,34 @@ body {
 .navbar {
     background-color: rgb(29, 27, 27);
     color: aliceblue;
+    position: relative;
+}
+
+.navbar::before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 10px;
+    right: 0px;
+    width: 100%;
+    height: 150px;
+    z-index: -1;
+    background-image: url(assets/bg.png);
 }
 
 .btn {
     background-color: aliceblue;
+    width: 6rem;
+    font-size: 0.5em;
+    margin-top: 3px;
+    padding: 7px;
 }
 
 .card-text {
     padding-top: 10px;
     text-align: justify;
     font-size: 0.8em;
+    height: 70%;
 }
 
 a {
@@ -45,3 +70,67 @@ a {
 a:hover {
     color: grey;
 }
+
+.card-title {
+    margin-top: -50px;
+}
+
+.hourglass {
+    display: inline-block;
+    width: 30px;
+    padding: 3px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+
+.span {
+    font-size: 0.8em;
+}
+
+.player {
+    max-width: 90%;
+    margin-bottom: 5%;
+    background-image: url(assets/bg.png);
+}
+
+h5 {
+    font-size: 1.5em;
+}
+
+.overlay img{
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+
+ 
+}
+
+.overlay:hover{
+    transform: scale(1.05);
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+h3 {
+    margin-top: 5%;
+    margin-bottom: 2%;  
+}
+
+h1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    padding-bottom: 5px;
+    color: aliceblue;
+    background-color: black;
+    margin-top: 1%;
+    border: 2px dashed whitesmoke;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+  
