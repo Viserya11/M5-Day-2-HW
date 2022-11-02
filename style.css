@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.card {
+    background-color: rgb(29, 27, 27);
+    color: aliceblue;
+    margin-bottom: 10vh;
+    max-width: 20vw;
+    max-height: 90vh;
+}
+
+.card-img-top {
+    width: 15vw;
+    margin: 10px auto ;
+    
+}
+
+.footer {
+    background-color: rgb(29, 27, 27);
+    color: aliceblue;
+    padding: 10px;
+    margin: 0;
+}
+
+.navbar {
+    background-color: rgb(29, 27, 27);
+    color: aliceblue;
+}
+
+.btn {
+    background-color: aliceblue;
+}
+
+.card-text {
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 0.8em;
+}
